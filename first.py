@@ -16,7 +16,8 @@ st.subheader('Streamlit课程进度')
 st.progress(40,text="Streamlit课程进度")
 st.header("📝技能矩阵")
 
-
+import pandas as pd
+import streamlit as st
 # 定义数据,以便创建数据框
 data = {
     '日期': ['2023-10-01', '2023-10-05', '2023-10-12'],
